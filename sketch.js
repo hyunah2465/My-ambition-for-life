@@ -8,7 +8,7 @@
 let mover;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
   mover = new Mover(200, 200);
 
 }
