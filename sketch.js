@@ -15,11 +15,6 @@ function setup() {
 
 function draw() {
   background(102);
-   stroke(255,0,0);
-   strokeWeight(2);
-   fill(255, 0, 0);
-   triangle(300, 350, 275, 400, 325, 400);
-
   if (keyIsPressed) {
     let wind = createVector(0.1, 0);
     mover.applyForce(wind);

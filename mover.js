@@ -43,12 +43,11 @@ class Mover {
 
     this.vel.add(this.acc);
     this.pos.add(this.vel);
-    this.acc.set(5, 5);
+    this.acc.set(0, 0);
   }
 
   show() {
-    noStroke();
     fill(102);
-    rect(this.pos.x-200, this.pos.y, this.r * 8,this.r *8);
+    ellipse(this.pos.x, this.pos.y, this.r * 10);
   }
 }
