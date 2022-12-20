@@ -47,9 +47,8 @@ class Mover {
   }
 
   show() {
-    stroke(255);
-    strokeWeight(2);
+    noStroke();
     fill(102);
-    rect(this.pos.x-200, this.pos.y, this.r * 6,this.r *6);
+    rect(this.pos.x-200, this.pos.y, this.r * 8,this.r *8);
   }
 }
