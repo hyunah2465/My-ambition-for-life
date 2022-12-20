@@ -43,7 +43,7 @@ class Mover {
 
     this.vel.add(this.acc);
     this.pos.add(this.vel);
-    this.acc.set(0, 0);
+    this.acc.set(5, 5);
   }
 
   show() {
