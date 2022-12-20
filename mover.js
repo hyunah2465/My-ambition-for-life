@@ -50,6 +50,6 @@ class Mover {
     stroke(255);
     strokeWeight(2);
     fill(255, 100);
-    ellipse(this.pos.x, this.pos.y, this.r * 2);
+    rect(this.pos.x, this.pos.y, this.r * 2,);
   }
 }
