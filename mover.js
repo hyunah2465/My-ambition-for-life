@@ -50,6 +50,6 @@ class Mover {
     stroke(255);
     strokeWeight(2);
     fill(255, 100);
-    rect(this.pos.x, this.pos.y, this.r * 2,this.r *2);
+    rect(this.pos.x-200, this.pos.y, this.r * 2,this.r *2);
   }
 }
