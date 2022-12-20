@@ -49,7 +49,7 @@ class Mover {
   show() {
     stroke(255);
     strokeWeight(2);
-    fill(255, 100);
-    rect(this.pos.x-200, this.pos.y, this.r * 4,this.r *4);
+    fill(102);
+    rect(this.pos.x-200, this.pos.y, this.r * 6,this.r *6);
   }
 }
