@@ -21,11 +21,11 @@ function draw() {
    triangle(300, 350, 275, 400, 325, 400);
 
   if (keyIsPressed) {
-    let wind = createVector(0.01, 0);
+    let wind = createVector(0.1, 0);
     mover.applyForce(wind);
   }
   
-  let gravity = createVector(0, 0.2);
+  let gravity = createVector(random(0, 0.8));
   mover.applyForce(gravity);
   
   mover.update();
