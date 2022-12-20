@@ -10,6 +10,7 @@ let mover;
 function setup() {
   createCanvas(400, 400);
   mover = new Mover(200, 200);
+
 }
 
 function draw() {
@@ -19,8 +20,8 @@ function draw() {
    fill(255, 100);
    triangle(300, 350, 275, 400, 325, 400);
 
-  if (mouseIsPressed) {
-    let wind = createVector(0.1, 0);
+  if (keyIsPressed) {
+    let wind = createVector(0.01, 0);
     mover.applyForce(wind);
   }
   
