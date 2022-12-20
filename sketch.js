@@ -17,7 +17,7 @@ function draw() {
    stroke(255);
    strokeWeight(2);
    fill(255, 100);
-   triangle(300, 350, 250, 400, 350, 400);
+   triangle(300, 350, 275, 400, 325, 400);
 
   if (mouseIsPressed) {
     let wind = createVector(0.1, 0);

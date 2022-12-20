@@ -10,7 +10,7 @@ class Mover {
     this.pos = createVector(x, y);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
-    this.r = 16;
+    this.r = 20;
   }
   
 
